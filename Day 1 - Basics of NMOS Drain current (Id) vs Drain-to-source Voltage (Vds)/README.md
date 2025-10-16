@@ -211,7 +211,7 @@ SPICE requires two primary components:
 
 * **Netlist:** Text description of all devices and their node connections.
 * **Model File:** Foundry-provided set of parameters defining transistor physics (e.g., `sky130.lib.spice`).
-* 
+  
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/19dc0c16-9bca-4554-aa34-3fbedccf7b41" />
 
 ---
@@ -270,10 +270,11 @@ cd sky130CircuitDesignWorkshop
 ngspice day1_nfet_idvds_L2_W5.spice
 plot -vdd#branch
 ```
+![Image](https://github.com/user-attachments/assets/dc2c3e2d-ec1d-4db1-9085-7e15c970f792)
 
 Analyze **I–V curves** and **waveforms** to validate theoretical models with actual simulation results.
 
-
+![Image](https://github.com/user-attachments/assets/ef4c2f8e-54f4-44d9-9027-3df995733fdd)
 
 ---
 
