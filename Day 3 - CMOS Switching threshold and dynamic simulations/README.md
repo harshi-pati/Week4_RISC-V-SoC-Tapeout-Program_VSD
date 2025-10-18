@@ -1,5 +1,4 @@
 
-
 #  **CMOS Switching Threshold and Dynamic Simulations**
 
 ## **1. Voltage Transfer Characteristics – SPICE Simulations**
@@ -30,7 +29,36 @@
 ---
 
 ### **1.3 Labs Sky130 SPICE Simulation for CMOS**
+  
+  **Voltage Transfer Characteristics**
 
+<img width="1210" height="773" alt="Image" src="https://github.com/user-attachments/assets/6f207f66-f444-4d73-960f-25942ad2e738" />
+
+- Run and plot in Ngspice:
+  
+```spice
+ngspice day3_inv_vtc_Wp084_Wn036.spice
+plot out vs in
+```
+
+<img width="1210" height="773" alt="Image" src="https://github.com/user-attachments/assets/bade7a4d-0b63-4a77-b6aa-cbef2b7118b7" />
+
+---
+
+ **Transient Analysis and Delay Calculation**
+ 
+ <img width="1210" height="773" alt="Image" src="https://github.com/user-attachments/assets/e6b579c0-7fde-46e8-886e-1c1cf533eb87" />
+
+- Run and plot in Ngspice:
+
+``` spice
+ngspice day3_inv_tran_Wp084_Wn036.spice
+plot out vs time in
+```
+
+<img width="1210" height="773" alt="Image" src="https://github.com/user-attachments/assets/a7e76902-cde7-4fa2-8856-021b1ba1caeb" />
+
+<img width="1210" height="773" alt="Image" src="https://github.com/user-attachments/assets/d3fe0e46-71da-456d-b792-f612a73e1b90" />
 
 ---
 
