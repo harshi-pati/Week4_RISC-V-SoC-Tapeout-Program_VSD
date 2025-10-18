@@ -102,7 +102,11 @@ To analyze noise margins of the inverter circuit, run:
 ngspice day4_inv_noisemargin_wp1_wn036.spice
 plot out vs in
 ```
+<img width="1210" height="773" alt="Image" src="https://github.com/user-attachments/assets/4c93be47-d66b-41c7-8c9d-405b9cfa80ec" />
 
+<img width="1210" height="773" alt="Image" src="https://github.com/user-attachments/assets/0266481e-66f8-4a6e-b531-d8ddc136b557" />
+
+<img width="315" height="91" alt="Image" src="https://github.com/user-attachments/assets/95466ad5-f783-4daa-baf0-c9b2847a5d19" />
 
 ---
 
